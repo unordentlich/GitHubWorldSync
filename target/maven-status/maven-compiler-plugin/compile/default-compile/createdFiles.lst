@@ -1,0 +1,4 @@
+de\jonas\githubworldsync\utils\ConfigHandler.class
+de\jonas\githubworldsync\utils\WorldSync.class
+de\jonas\githubworldsync\commands\Synchronise.class
+de\jonas\githubworldsync\GitHubWorldSync.class

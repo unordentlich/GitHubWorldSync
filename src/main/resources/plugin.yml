@@ -1,0 +1,10 @@
+name: GitHubWorldSync
+version: '${project.version}'
+main: de.jonas.githubworldsync.GitHubWorldSync
+api-version: 1.18
+prefix: GitHubWorldSync
+authors: [ unordentlich ]
+description: Synchronise your Minecraft worlds with a GitHub repository to regularly protect the state of your worlds from loss through convenient version histories and a secure infrastructure.
+commands:
+  sync:
+    aliases: [ worldSync, push, synchronize, commit ]
