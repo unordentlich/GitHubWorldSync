@@ -26,6 +26,8 @@ public class Synchronise implements CommandExecutor {
      */
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        if(!(sender instanceof Player))
+            return false;
         if (!sender.isOp() && !sender.hasPermission("worldSync.push"))
             return false;
         if (!WorldSync.isSynchronisationReady()) {
