@@ -2,8 +2,7 @@ name: Compile
 
 on:
   push:
-    branches:
-      - internal-release
+    branches: [ master ]
 
 jobs:
   build:
